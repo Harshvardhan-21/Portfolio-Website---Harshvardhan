@@ -2,12 +2,28 @@ const Contact = () => {
   return (
     <section id="contact" className="section">
       <h2>Contact Me</h2>
-      <form className="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows={5} required />
-        <button type="submit" className="btn">Send Message</button>
-      </form>
+
+      <p>Email: harshvardhanraj332@gmail.com</p>
+      <p>Phone: 9162038214</p>
+
+      <div style={{marginTop:"20px"}}>
+        <a 
+          href="https://github.com/Harshvardhan-21"
+          target="_blank"
+          className="btn"
+        >
+          GitHub
+        </a>
+
+        <a 
+          href="https://linkedin.com/in/harsh-vardhan-822140281"
+          target="_blank"
+          className="btn"
+          style={{marginLeft:"10px"}}
+        >
+          LinkedIn
+        </a>
+      </div>
     </section>
   );
 };

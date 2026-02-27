@@ -2,11 +2,29 @@ const Hero = () => {
   return (
     <section className="hero">
       <h1>Hi, I'm Harshvardhan</h1>
-      <p>I am Currently Persuing BCA from Guru Kashi University.</p>
-      <p>I am also working in SRV Electricals as a IT Developer.</p>
+
+      <p>BCA Student | CGPA: 9.16</p>
       <p>Frontend Developer | React | TypeScript</p>
-      <p> I had also does Internship from CodTech IT solution in Python Programming</p>
-      <a href="#projects" className="btn">View My Work</a>
+      <p>Python Programming Intern - CodTech IT Solutions</p>
+      <p>Email Support Executive Intern - Germanium Technologies</p>
+
+      <div className="hero-links">
+        <a 
+          href="https://github.com/Harshvardhan-21"
+          target="_blank"
+          className="btn"
+        >
+          GitHub
+        </a>
+
+        <a 
+          href="https://linkedin.com/in/harsh-vardhan-822140281"
+          target="_blank"
+          className="btn"
+        >
+          LinkedIn
+        </a>
+      </div>
     </section>
   );
 };

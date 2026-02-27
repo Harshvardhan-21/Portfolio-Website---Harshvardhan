@@ -2,19 +2,31 @@ const Projects = () => {
   return (
     <section id="projects" className="section gray">
       <h2>Projects</h2>
+
       <div className="projects-grid">
+
         <div className="project-card">
-          <h3>Portfolio Website</h3>
-          <p>Built with React & TypeScript.</p>
+          <h3>Spam Email Classifier</h3>
+          <p>ML based spam detection using Python & Scikit-Learn.</p>
+          <a 
+            href="https://github.com/Harshvardhan-21/CODTECH-python-Task-4"
+            target="_blank"
+          >
+            View Code
+          </a>
         </div>
+
         <div className="project-card">
-          <h3>Task Manager App</h3>
-          <p>CRUD app with local storage.</p>
+          <h3>Password Generator Desktop App</h3>
+          <p>GUI application built using Python Tkinter.</p>
+          <a 
+            href="https://github.com/Harshvardhan-21/staxtech-project-2"
+            target="_blank"
+          >
+            View Code
+          </a>
         </div>
-        <div className="project-card">
-          <h3>E-commerce UI</h3>
-          <p>Modern responsive design.</p>
-        </div>
+
       </div>
     </section>
   );
