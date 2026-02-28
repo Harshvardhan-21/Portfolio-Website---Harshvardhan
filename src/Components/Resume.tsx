@@ -11,15 +11,14 @@ const Resume = () => {
           <a href={resume} download className="btn">
             Download Resume
           </a>
+
+          
         </div>
 
          <div className="resume-preview">
-        <iframe
-          src={resume}
-          title="Resume Preview"
-          width="100%"
-          height="600px"
-        />
+        <a href={resume} target="_blank" rel="noopener noreferrer" className="btn">
+  Preview Resume
+</a>
       </div>
       </section>
     );
