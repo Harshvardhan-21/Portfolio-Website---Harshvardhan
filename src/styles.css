@@ -75,7 +75,7 @@ body {
 
 
 .btn {
-  background: white;
+  background: rgb(255, 255, 255);
   color: #2f0949d0;
   padding: 0.7rem 1.5rem;
   border: none;
@@ -258,8 +258,21 @@ body {
 
 .resume-section p{
   margin-bottom:25px;
+
 }
 
 .resume-preview {
-  margin-top:30px;
+  margin-top:50px;
+  
+}
+
+.resume-section a {
+  background-image: linear-gradient(to right, #8e9eab 0%, #eef2f3 51%, #8e9eab 100%);
+
+}
+
+.btn :hover{
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
