@@ -12,6 +12,15 @@ const Resume = () => {
             Download Resume
           </a>
         </div>
+
+         <div className="resume-preview">
+        <iframe
+          src={resume}
+          title="Resume Preview"
+          width="100%"
+          height="600px"
+        />
+      </div>
       </section>
     );
   };
