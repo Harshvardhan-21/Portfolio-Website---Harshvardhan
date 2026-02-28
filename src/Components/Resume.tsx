@@ -1,3 +1,5 @@
+import resume from "../assets/resume.pdf"
+
 const Resume = () => {
     return (
       <section id="resume" className="resume-section">
@@ -6,7 +8,7 @@ const Resume = () => {
   
           <p>You can download my resume below.</p>
   
-          <a href="/resume.pdf" download className="btn">
+          <a href={resume} download className="btn">
             Download Resume
           </a>
         </div>

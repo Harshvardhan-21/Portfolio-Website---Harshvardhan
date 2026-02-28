@@ -1,7 +1,13 @@
+import logo from "../assets/Images/logo.png"
+
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Harshvardhan</div>
+      <div className="logo">
+        
+      <img src= {logo}></img>
+    
+      </div>
 
       <ul className="nav-links">
         <li><a href="#about">About</a></li>
